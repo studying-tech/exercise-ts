@@ -1,0 +1,49 @@
+{
+  "name": "ts-array-utils",
+  "version": "1.0.0",
+  "description": "TypeScript修了課題 - ジェネリックな配列操作ユーティリティライブラリ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "vitest",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "bunx @biomejs/biome check",
+    "lint:fix": "bunx @biomejs/biome check --write",
+    "dev": "ts-node src/examples.ts",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "array",
+    "utils",
+    "functional",
+    "utilities",
+    "generics"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "vitest": "^0.34.6",
+    "@vitest/ui": "^0.34.6",
+    "@vitest/coverage-v8": "^0.34.6",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/student/ts-array-utils.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
