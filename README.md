@@ -1,6 +1,6 @@
 # 09 TypeScript 配列ユーティリティ - 型安全な配列操作ライブラリの開発
 
-[GitHub Repository](https://github.com/studying-tech/exercise-react)
+[GitHub Repository](https://github.com/studying-tech/exercise-ts)
 
 TypeScript の高度な型システムを活用して、ジェネリックな配列操作ユーティリティライブラリを開発し、型安全性とパフォーマンスを両立させる実践的なスキルを学習します。
 
@@ -231,8 +231,8 @@ const result = map([1, 2, 3], mapper);
 
 ```sh
 # GitHub で Fork ボタンをクリック後
-git clone https://github.com/[あなたのユーザー名]/exercise-react.git
-cd exercise-react
+git clone https://github.com/[あなたのユーザー名]/exercise-ts.git
+cd exercise-ts
 ```
 
 #### 2. ブランチ作成
